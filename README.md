@@ -82,3 +82,19 @@ A page which renders the 3D models (enables 360-degree rotation views), together
 * *PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space* [arXiv](https://arxiv.org/abs/1706.02413)
 * *PointNeXt: Revisiting PointNet++ with Improved Training and Scaling Strategies (CVPR 2023)* [arXiv](https://arxiv.org/abs/2206.04670)
 * *PaliGemma: A versatile 3B VLM for transfer* [arXiv](https://arxiv.org/abs/2407.07726)
+
+## 📂Project Structure
+```
+.
+├── data/                # 3D model examples
+├── notebooks/           # Colab notebooks
+├── scripts/
+│   ├── preprocess.py    # Pre-process point cloud
+│   ├── extract_feat.py  # 3D feature extraction
+│   ├── caption.py       # Caption generation
+│   └── retrieval.py     # Text-3D retrieval
+├── app/                 # Streamlit frontend
+├── requirements.txt
+├── README.md
+└── architecture.png     # System design
+```
